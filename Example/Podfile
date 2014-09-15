@@ -1,0 +1,9 @@
+target 'Beanstalk', :exclusive => true do
+  pod "Beanstalk", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "Beanstalk", :path => "../"
+
+  pod 'Kiwi'
+end

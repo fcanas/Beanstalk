@@ -1,0 +1,28 @@
+PODS:
+  - Beanstalk (0.1.0):
+    - Parse-iOS (~> 1.3)
+    - Realm (~> 0.84)
+  - Bolts (1.1.2)
+  - Kiwi (2.3.0)
+  - Parse-iOS (1.3.0):
+    - Bolts (~> 1.1.2)
+  - Realm (0.84.0):
+    - Realm/Headers
+  - Realm/Headers (0.84.0)
+
+DEPENDENCIES:
+  - Beanstalk (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  Beanstalk:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Beanstalk: 1bdfbdcb099b4e499daf8290f64295b81fc9dea4
+  Bolts: 2635e8698a630774689441047f3465d78c48d485
+  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
+  Parse-iOS: cfce3a8ab9d7501717c7dad649935824c62c1e57
+  Realm: 097412d7bcbba45ad5037add12e0395136070d88
+
+COCOAPODS: 0.33.1
